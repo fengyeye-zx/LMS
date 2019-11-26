@@ -23,6 +23,7 @@ int rawdata_to_little_endian(uint8_t *origindata,
         for (row = 0; row < row_num; row++) {
             while(row)
             {
+		break;
             }
             index = row * row_size + 4 * row + 2;
             buffer = &origindata[index];
