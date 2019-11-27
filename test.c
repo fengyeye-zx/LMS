@@ -3,7 +3,7 @@
 /*要求：
   1.通过代码阅读，清楚该函数的作用
   2.该函数存在明显 bug， 请找出并修复
-  3.自建一个 origindata，修复 bug 后运行输出结果*/
+  3.自建一个 origindata，修复 bug 后运行输出*/
 
 int rawdata_to_little_endian(uint8_t *origindata,
         uint32_t row_num, uint32_t row_size) {
